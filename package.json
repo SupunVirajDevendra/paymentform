@@ -10,17 +10,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.17",
     "@tailwindcss/vite": "^4.0.15",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.8.4",
     "framer-motion": "^12.5.0",
+    "jspdf": "^3.0.1",
+    "paymentform": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "tailwindcss": "^4.0.15"
+    "react-modal": "^3.16.3",
+    "react-toastify": "^11.0.5",
+    "tailwindcss": "^4.0.17"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@types/react-modal": "^3.16.3",
+    "@types/react-toastify": "^4.0.2",
     "@vitejs/plugin-react-swc": "^3.8.0",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
